@@ -14,6 +14,5 @@ class TestWebsiteChecker(unittest.TestCase):
         self.assertNotEqual(website_checker.url_status_code('http://espn'), "200")
         self.assertNotEqual(website_checker.url_status_code('http://thisdoesnotexist1klhbndswjlflhfk3423.com'), "200")
 
-
 if __name__ == '__main__':
     unittest.main()
